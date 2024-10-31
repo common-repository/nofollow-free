@@ -1,0 +1,33 @@
+<?php
+define("_SELLANG","Pilih jenis bahasa");
+define("_BANDTXT","This blog is NOFOLLOW Free!");
+define("_OPTREMOVE","Pilih jika anda mau menghapus atribut \"nofollow\" dari penulis komentar dan/atau tautan dari isi komentar dan/atau tautan anggota yang terdaftar");
+define("_OPTFROM","Apakah anda ingin menghapus NOFOLLOW dari: (Penulis Biasa | Penulis Terdaftar | Komentar Terdaftar)");
+define("_AUTHORLINK","Tautan penulis");
+define("_COMTEXTLINK","Tautan isi komentar");
+define("_REGAUTHORLINK","Tautan penulis yang sudah terdaftar");
+define("_REGCOMTEXTLINK","Tautan isi komentar yang sudah terdaftar");
+define("_SETNUMAUTH","Isikan jumlah komentar yang harus ditulis sebelum menghapus rel=nofollow. (standar 10)");
+define("_SETNUMZERO","Isikan <strong>0</strong> untuk menghapus semua rel=nofollow.");
+define("_SETNUMREGAUTH","Isikan jumlah komentar yang ANGGOTA TERDAFTAR harus tuliskan sebelum rel=nofollow dihapus. (standar 5)");
+define("_SETBLACKLIST","Disini anda dapat menggunakan tanda <strong>koma</strong> sebagai pemisah kata. Jika salah satu kata terdapat dalam isi komentar maka rel=nofollow kembali diaktifkan, hanya untuk mencegah spammers.");
+define("_SETNUMCOM","Apakah anda menginginkan jumlah komentar untuk penulis tertentu ditampilkan setelah namanya? (standar TIDAK)");
+define("_YES","Ya");
+define("_NO","Tidak");
+define("_NO2","Tidak, saya akan menulis postingan tentang PLUGIN ini :)");
+define("_DONATELINK","Apakah anda mau menyumbang untuk PLUGIN ini? (standar YA)");
+define("_INSERTFUNC","Supaya logo bisa ditampilkan dibagian atas halaman, jangan lupa memasukkan kode <strong>&lt;?php noff() ?&gt;</strong> ke template anda setelah atribut &lt;body&gt; seperti berikut:");
+define("_OPTBAND","Perintah ini perlu HANYA JIKA anda mau menampilkan logo dibagian atas, attribut nofollow dari komentar anda akan menghilang. (Jika anda belum merubah sesuatu diatas)");
+define("_TOPBAND","Apakah anda ingin gambar logo (CSS style) berada pada bagian atas halaman?");
+define("_POSBAND","Diposisi mana akan ditampilkan?");
+define("_LEFT","Kiri");
+define("_RIGHT","Kanan");
+define("_GREEN","Hijau");
+define("_RED","Merah");
+define("_ORANGE","Oranye");
+define("_BLUE","Biru");
+define("_COLBAND","Silahkan pilih warna yang anda sukai ?");
+define("_URLBAND","URL tautan bila seseorang mengklik gambar logo tersebut?");
+define("_CHECKUP","Cek jika <a href='http://www.michelem.org/wordpress-plugin-nofollow-free/'><strong>nofollow-free plugin</strong></a> anda sudah terupdate");
+define("_TEXTLINK","Tautan komentar adalah <a href='http://www.michelem.org/wordpress-plugin-nofollow-free/'>nofollow free</a>.");
+?>

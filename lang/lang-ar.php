@@ -1,0 +1,33 @@
+﻿<?php
+define("_SELLANG","اختر اللغة |تعريب الدرازي");
+define("_BANDTXT","هذه المدونة تتمتع بـNofollow مجانا !");
+define("_OPTREMOVE","ضع صح اذا كنت ازاله \"nofollow\" من روابط الردود وروابط الكتاب والاعضاء");
+define("_OPTFROM","هل تريد وضع نوفلو لـ (default Author | Registered Author | Registered Comment)");
+define("_AUTHORLINK","رابط الكاتب");
+define("_COMTEXTLINK","رابط التعليقات");
+define("_REGAUTHORLINK","رابط العضو المسجل");
+define("_REGCOMTEXTLINK","رابط تعليقات العضو المسجل");
+define("_SETNUMAUTH","ضع اقل عدد من التعليقات قبل ان يحذف الـنوفولو عن روابطه |الافتراضي = 10|");
+define("_SETNUMZERO","ضع <strong>0</strong> لحذف التوفولو للأبد");
+define("_SETNUMREGAUTH","ضع اقل عدد من التعليقات للعضو المسجل قبل ان يحذف الـنوفولو عن روابطه |الافتراضي = 5|");
+define("_SETBLACKLIST","ضع هنا بعض <strong>الفواصل</strong> تلحقها بعض الكلمات. ليظهر النوفولو في التعليق (منعا من السبام)");
+define("_SETNUMCOM","هل تريد عرض عدد التعليقات بواسطة هذا الكاتب (الافتراضي : لا)");
+define("_YES","نعم");
+define("_NO","لا");
+define("_NO2","لا, سوف اكتب تدوينة لهذه الاضافة");
+define("_DONATELINK","هل تريد دعم الاضافة بوصلة في مدونتك");
+define("_INSERTFUNC","لأضافة بنر في مدونتك اضف <strong>&lt;?php noff() ?&gt;</strong> في قالب مدونتك المستخدم قبل &lt;body&gt; لتظهر بهذه الصورة");
+define("_OPTBAND","هذه الخيارات التي في الاسفل فقط اذا اخترت اضافة النبر في الاعلى ");
+define("_TOPBAND","هل تريد البنر في اعلى الصفحة ؟");
+define("_POSBAND","اي انتجاه تريد وضعها");
+define("_LEFT","يسار");
+define("_RIGHT","يمين");
+define("_GREEN","اخضر");
+define("_RED","احمر");
+define("_ORANGE","برتقالي");
+define("_BLUE","ازرق");
+define("_COLBAND","اي لون تريد؟");
+define("_URLBAND","الرابط الذي تريده عندما يضغط الزائر على البنر");
+define("_CHECKUP","جرب اذا<a href='http://www.michelem.org/wordpress-plugin-nofollow-free/'><strong>nofollow-free plugin</strong></a> تعريب | <a href='http://aldirazi.com'><strong>الدرازي</strong></a>");
+define("_TEXTLINK","التعليقات سوف تصبح<a href='http://www.michelem.org/wordpress-plugin-nofollow-free/'>nofollow مجانا</a>.");
+?>

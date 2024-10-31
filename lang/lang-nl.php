@@ -1,0 +1,33 @@
+<?php
+define("_SELLANG","Selecteer NOFF-taal");
+define("_BANDTXT","Deze blog is NOFOLLOW-vrij!");
+define("_OPTREMOVE","Vink aan indien u de 'nofollow'-linkeigenschap wilt verwijderen van de standaard auteurs en/of geregistreerde auteurs en/of links in een reactie");
+define("_OPTFROM","Wilt u nofollow verwijderen van: ( standaard auteurs | geregistreerde auteurs | geregistreerde reacties)?");
+define("_AUTHORLINK","Link standaard auteur");
+define("_COMTEXTLINK","Links in reacties");
+define("_REGAUTHORLINK","Link geregistreerde auteur");
+define("_REGCOMTEXTLINK","Links in geregistreerde reacties");
+define("_SETNUMAUTH","Bepaal hoeveel reacties een auteur moet geschreven hebben voordat NOFOLLOW uitgeschakeld wordt (standaard 10)");
+define("_SETNUMZERO","Geef <strong>0</strong> in om nofollow altijd uit te schakelen");
+define("_SETNUMREGAUTH","Bepaal hoeveel reacties een GEREGISTREERDE auteur moet geschreven hebben voordat nofollow uitgeschakeld wordt (standaard 5)");
+define("_SETBLACKLIST","Hier kan u sleutelwoorden ingeven, gescheiden door een <strong>komma</strong. Indien n of enkele van deze sleutelwoorden teruggevonden worden in een reactie, dan zal NOFOLLOW terug ingeschakeld worden om spamberichten te voorkomen");
+define("_SETNUMCOM","Wilt u het aantal reacties van een bepaalde auteur achter de naam weergeven? (standaard NEE)");
+define("_YES","Ja");
+define("_NO","Nee");
+define("_NO2","Nee, maar ik wijd een bericht aan deze plugin ;-)");
+define("_DONATELINK","Wilt u een link maken naar deze plugin? (standaard JA)");
+define("_INSERTFUNC","Om de hoekbanner aan de bovenkant van het scherm weer te geven, moet u juist achter de <body>-tag van uw sjabloon volgende code opnemen: <strong>&lt;?php noff() ?&gt;</strong>, zoals volgend voorbeeld:");
+define("_OPTBAND","De aanpassing van uw sjabloon is ENKEL nodig als u de hoekbanner wilt weergeven. Nofollow blijft gewoon uitgeschakeld, tenzij u dat bovenaan veranderd heeft.");
+define("_TOPBAND","Wilt u de CSS-band bovenaan in de paginahoek weergeven?");
+define("_POSBAND","Welke positie draagt uw voorkeur?");
+define("_LEFT","Links");
+define("_RIGHT","Rechts");
+define("_GREEN","Groen");
+define("_RED","Rood");
+define("_ORANGE","Oranje");
+define("_BLUE","Blauw");
+define("_COLBAND","Welke kleur wenst u?");
+define("_URLBAND","Naar welke URL wilt u doorverwijzen als iemand de band aanklikt?");
+define("_CHECKUP","Controleer of u de laatste versie van de <a href='http://www.michelem.org/wordpress-plugin-nofollow-free/'><strong>nofollow-free plugin</strong></a> genstalleerd hebt.");
+define("_TEXTLINK","Reacties kunnen <a href='http://www.michelem.org/wordpress-plugin-nofollow-free/'>nofollow-vrij</a> zijn.");
+?>

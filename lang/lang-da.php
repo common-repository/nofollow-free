@@ -1,0 +1,33 @@
+﻿<?php
+define("_SELLANG","Vælg NOFF sprog");
+define("_BANDTXT","Denne blog er NOFOLLOW Fri!");
+define("_OPTREMOVE","Vælg om du ønsker at fjerne \"nofollow\" attributen fra kommentar-forfatter og/eller kommentar tekst-links og/eller registrerede bruger-links");
+define("_OPTFROM","Ønsker du at fjerne nofollow fra: (standard Forfatter | Registreret forfatter | Registreret kommentar)");
+define("_AUTHORLINK","Forfatter link");
+define("_COMTEXTLINK","Kommentar tekst link");
+define("_REGAUTHORLINK","Registreret forfatter link");
+define("_REGCOMTEXTLINK","Registreret kommentar tekst link");
+define("_SETNUMAUTH","Angiv hvor mange kommentarer forfatteren skal have skrevet før nofollow fjernes. (standard 10)");
+define("_SETNUMZERO","Angiv <strong>0</strong> for altid at fjerne nofollow.");
+define("_SETNUMREGAUTH","Angiv hvor mange kommentarer den registrerede forfatter skal have skrevet før jeg fjerner nofollow. (standard 5)");
+define("_SETBLACKLIST","Her kan du angive nogle komma-separerede ord. Hvis et eller flere af disse ord findes i teksten tages nofollow i brug igen - for at forhindre spammere.");
+define("_SETNUMCOM","Ønsker du antal kommentarer af en bestemt forfatter vist efter dennes navn? (standard Nej)");
+define("_YES","Ja");
+define("_NO","Nej");
+define("_NO2","Nej, jeg vil skrive et indlæg om denne plugin :)");
+define("_DONATELINK","Ønsker du at donere et link til denne plugin? (standard Ja)");
+define("_INSERTFUNC","For at vise top-båndet, husk at indsætte <strong>&lt;?php noff() ?&gt;</strong> funktion i din template lige efter &lt;body&gt; attributen således:");
+define("_OPTBAND","Denne handling er KUN nødvendig hvis du ønsker at vise top-båndet,  nofollow-attributen fra dine kommentarer er kun fjernet. (Hvis du ikke har ændret det herover.)");
+define("_TOPBAND","Ønsker du CSS billed-båndet overst på siden?");
+define("_POSBAND","Hvilken position foretrækker du?");
+define("_LEFT","Venstre");
+define("_RIGHT","Højre");
+define("_GREEN","Grøn");
+define("_RED","Rød");
+define("_ORANGE","Orange");
+define("_BLUE","Blå");
+define("_COLBAND","Hvilken farve foretrækker du på dit bånd?");
+define("_URLBAND","Hvilken URL ønsker du at henvise til når nogen klikker på båndet?");
+define("_CHECKUP","Tjeck om din <a href='http://www.michelem.org/wordpress-plugin-nofollow-free/'><strong>nofollow-free plugin</strong></a> er opdateret");
+define("_TEXTLINK","Kommentar links kunne være <a href='http://www.michelem.org/wordpress-plugin-nofollow-free/'>nofollow fri</a>.");
+?>

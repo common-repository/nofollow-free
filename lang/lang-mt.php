@@ -1,0 +1,33 @@
+<?php
+define("_SELLANG","Aghzel NOFF lingwa");
+define("_BANDTXT","Dan il-blog mhuwiex NOFOLLOW!");
+define("_OPTREMOVE"," Aghzel jekk trid tnehhi l-attribut \"nofollow\" mil-kummenti tal-awtur u/jew mil-kummenti fil-kontenut u/jew mil-holqa tan-nies registrati.");
+define("_OPTFROM","Tixtieq tnehhi nofollow minn: (Awtur Default | Awtur Registrat | Kumment Registrat)");
+define("_AUTHORLINK","Holqa tal-Awtur");
+define("_COMTEXTLINK","Holqa tal-Kumment");
+define("_REGAUTHORLINK","Holqa tal-Awtur Registrat");
+define("_REGCOMTEXTLINK","Holqa tal-Kumment Registrat");
+define("_SETNUMAUTH"," Settja kemm il-kumment awtur irrid jikteb qabel ma nehhi nofollow. (default 10)");
+define("_SETNUMZERO","Settja <strong>0</strong> biex dejjem tnehhi nofollow.");
+define("_SETNUMREGAUTH"," Settja kemm il-kumment awtur registrat irrid jikteb qabel ma nehhi nofollow. (default 5)");
+define("_SETBLACKLIST","Hawn tista tisettja kliem li huma <strong>comma</strong> separati. Jekk wahda jew iktar minn dawn il kliem jinstabu f'kumment inqieghed lura n-nofollow, biex nevita spammers.");
+define("_SETNUMCOM"," Trid in-numru tal-kummenti minn awtur partikolari wara isimhom? (default Le)");
+define("_YES","Iva");
+define("_NO","Le");
+define("_NO2","Le, ha nikteb post fuq din il-plugin :)");
+define("_DONATELINK","Tixtieq taghti holqa bhala donazzjoni lil din il-plugin? (default Iva)");
+define("_INSERTFUNC","Biex turi l-istrixxa ta fuq dahhal il-funzjoni <strong>&lt;?php noff() ?&gt;</strong> go t-template wara l-attribut &lt;body&gt; bhal din:");
+define("_OPTBAND"," Din l-azzjoni hija mehtiega biss jekk tixtieq turi l-istrixxa ta' fuq, l-attribut nofollow sparixxa mil-kummenti tieghek. (Jekk ma bidiltux hawn fuq.)");
+define("_TOPBAND"," Trid l-istrixxa tas-CSS fil-parti ta' fuq tal-pagna?");
+define("_POSBAND","Liem pozizzjoni tipreferi?");
+define("_LEFT","Xellug");
+define("_RIGHT","Lemin");
+define("_GREEN","Ahdar");
+define("_RED","Ahmar");
+define("_ORANGE","Orangjo");
+define("_BLUE","Blu");
+define("_COLBAND","Liem kulur tipreferi mil-istrixxa?");
+define("_URLBAND","Liem url trid meta xi hadd jiklikja l-istrixxa?");
+define("_CHECKUP","Cekkja jekk <a href='http://www.michelem.org/wordpress-plugin-nofollow-free/'><strong>nofollow-free plugin</strong></a> hux aggornat");
+define("_TEXTLINK","Il-holq tal-kummenti jistghu jkunu <a href='http://www.michelem.org/wordpress-plugin-nofollow-free/'>nofollow free</a>.");
+?>

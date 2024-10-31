@@ -1,0 +1,34 @@
+<?php
+define("_SELLANG","Seleziona la lingua per NOFF");
+define("_BANDTXT","Questo blog e' libero dal NOFOLLOW!");
+define("_OPTREMOVE","Seleziona se vuoi rimuovere l'attributo \"nofollow\" dall'autore del commento e/o dai link contenuti nel testo del commento e/o dai link degli utenti registrati");
+define("_OPTFROM","Vuoi rimuovere il nofollow da: (default Autore | Autore registrato | Commento autore registrato)");
+define("_AUTHORLINK","Link Autore");
+define("_COMTEXTLINK","Link nel testo commento");
+define("_REGAUTHORLINK","Link Autore registrato");
+define("_REGCOMTEXTLINK","Link nel testo commento Autore Registrato");
+define("_SETNUMAUTH","Scegli quanti commenti deve aver gia' scritto l'autore prima di togliergli il nofollow. (default 10)");
+define("_SETNUMZERO","Scegli <strong>0</strong> per rimuoverlo sempre.");
+define("_SETNUMREGAUTH","Scegli quanti commenti deve aver gia' scritto l'autore REGISTRATO prima di togliergli il nofollow. (default 5)");
+define("_SETBLACKLIST","Qui puoi scegliere qualche parola separata da <strong>virgola</strong>. Se una o piu' di queste parole compariranno nel testo del commento rimettero' il nofollow cosi' da prevenire gli spammer");
+define("_SETBLACKLIST","Come sopra, qui puoi scrivere alcune email separate da <strong>virgola</strong> per bloccare determinati autori");
+define("_SETNUMCOM","Vuoi visualizzare il numero di commenti fatti da un autore a fianco il suo nome? (default NO)");
+define("_YES","Si");
+define("_NO","No");
+define("_NO2","No, Scrivero' un post riguardo questo plugin :)");
+define("_DONATELINK","Vuoi donare un link a questo plugin? (default YES)");
+define("_INSERTFUNC","Per visualizzare la banda in alto ricordati di inserire la funzione <strong>&lt;?php noff() ?&gt;</strong> nel tuo template appena sotto l'attributo &lt;body&gt; come sotto:");
+define("_OPTBAND","Questa azione e' richiesta SOLO SE vuoi visualizzare la banda in alto, l'attributo nofollow e' stato gia' rimosso. (Se non hai cambiato qualcosa sopra)");
+define("_TOPBAND","Vuoi la banda CSS in cima alla pagina?");
+define("_POSBAND","Quale posizione preferisci?");
+define("_LEFT","Sinistra");
+define("_RIGHT","Destra");
+define("_GREEN","Verde");
+define("_RED","Rossa");
+define("_ORANGE","Arancione");
+define("_BLUE","Blu");
+define("_COLBAND","Quale colore della banda preferisci?");
+define("_URLBAND","Quale url vuoi quando si clicca la banda?");
+define("_CHECKUP","Controlla se il tuo <a href='http://www.michelem.org/wordpress-plugin-nofollow-free/'><strong>nofollow-free plugin</strong></a> e' aggiornato");
+define("_TEXTLINK","I link nei commenti potrebbero essere liberi dal <a href='http://www.michelem.org/wordpress-plugin-nofollow-free/'>nofollow</a>.");
+?>

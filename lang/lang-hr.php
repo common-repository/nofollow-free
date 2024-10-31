@@ -1,0 +1,33 @@
+<?php
+define("_SELLANG","Odaberite NOFF jezik");
+define("_BANDTXT","Ovaj blog je bez NOFOLLOW-a!");
+define("_OPTREMOVE","Odaberite ukoliko &#382;elite izbaciti \"nofollow\" atribut iz autora komentara i/ili poveznice u tekstu komentara i/ili poveznice registriranog korisnika");
+define("_OPTFROM","&#382;elite li izbaciti nofollow iz: (Autora | Prijavljenog Autora | Komentara Prijavljenog Autora)");
+define("_AUTHORLINK","Poveznica autora");
+define("_COMTEXTLINK","Poveznica komentara");
+define("_REGAUTHORLINK","Poveznica prijavljenog autora");
+define("_REGCOMTEXTLINK","Poveznice teksta prijavljenog autora");
+define("_SETNUMAUTH","Odaberite koliko komentara autor mo&#382;e ostaviti prije nego izbacim nofollow. (10)");
+define("_SETNUMZERO","Unesite <strong>0</strong> kako bi nofollow uvijek bio izba&#269;en.");
+define("_SETNUMREGAUTH","Odaberite koliko komentara PRIJAVLJENI autor mora ostaviti prije nego izbacim nofollow. (5)");
+define("_SETBLACKLIST","Ovdje mo&#382;ete odrediti neke <strong>zarezom</strong> odvojene rije&#269;i. Ukoliko su jedna ili vi&#382;e rije&#269;i prona?ene u tekstu komentara staviti u nofollow, da sprije&#269;im SPAM-ere.");
+define("_SETNUMCOM","&#382;elite li da se ukupan broj komntara pojavljuje kraj imena autora?");
+define("_YES","Da");
+define("_NO","Ne");
+define("_NO2","Ne, napisat ?u kra?i tekst o ovom plugin-u :)");
+define("_DONATELINK","&#382;elite li pokloniti poveznicu do ovog plugin-a? (DA)");
+define("_INSERTFUNC","Ukoliko &#382;elite da se prikazuje traka na vrhu ne zaboravite umetnuti <strong>&lt;?php noff() ?&gt;</strong> funkciju u Va&#353; predlo&#382;ak iza &lt;body&gt; atributa:");
+define("_OPTBAND","Ovaj akcija je potrebna SAMO AKO &#382;elite da se traka na vrhu prikazuje, nofollow atribut iz va&#353;ih komentara &#269;e nestati. (Ukoliko ga niste promijenili iznad.)");
+define("_TOPBAND","&#382;elite li postaviti CSS sliku/traku na vrhu stranice?");
+define("_POSBAND","Na kojem mjestu &#382;elite da se pokazuje?");
+define("_LEFT","Lijevo");
+define("_RIGHT","Desno");
+define("_GREEN","Zelena");
+define("_RED","Crvena");
+define("_ORANGE","Naran&#269;asta");
+define("_BLUE","Plava");
+define("_COLBAND","Koju boju trake &#382;elite?");
+define("_URLBAND","Koju poveznicu &#382;elite prilikom click-a na traku?");
+define("_CHECKUP","Provjerite je li Va&#353; <a href='http://www.michelem.org/wordpress-plugin-nofollow-free/'><strong>nofollow-free plugin</strong></a> update-an na najnoviju ina&#269;icu");
+define("_TEXTLINK","Poveznice komentara mogu biti <a href='http://www.michelem.org/wordpress-plugin-nofollow-free/'>nofollow free</a>.");
+?>

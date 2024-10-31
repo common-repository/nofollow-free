@@ -1,0 +1,34 @@
+<?php
+define("_SELLANG","Select NOFF language");
+define("_BANDTXT","This blog is NOFOLLOW Free!");
+define("_OPTREMOVE","Select if you want to remove \"nofollow\" attribute from comment author and/or comment body text link and/or registered users link");
+define("_OPTFROM","Do you want to remove nofollow from: (default Author | Registered Author | Registered Comment)");
+define("_AUTHORLINK","Author Link");
+define("_COMTEXTLINK","Comment text Link");
+define("_REGAUTHORLINK","Registered Author Link");
+define("_REGCOMTEXTLINK","Registered Comment text Link");
+define("_SETNUMAUTH","Set how many comments the author must have written before I remove the nofollow. (default 10)");
+define("_SETNUMZERO","Set <strong>0</strong> to always remove the nofollow.");
+define("_SETNUMREGAUTH","Set how many comments the REGISTERED author must have written before I remove the nofollow. (default 5)");
+define("_SETBLACKLIST","Here you can set some <strong>comma</strong> separated words. If one or more of these words are found in the text comment I put back the nofollow, just to prevent spammers.");
+define("_SETBLACKLIST_EMAIL","As above you can exclude specific author's emails writing down some <strong>comma</strong> separated emails. (we hate spammers)");
+define("_SETNUMCOM","Do you want number of comments by a particular author displayed after their name? (default NO)");
+define("_YES","Yes");
+define("_NO","No");
+define("_NO2","No, I will write a post about this plugin :)");
+define("_DONATELINK","Do you want to donate a link to this plugin? (default YES)");
+define("_INSERTFUNC","In order to display the top band remember insert the <strong>&lt;?php noff() ?&gt;</strong> function into your template just after the &lt;body&gt; attribute like this:");
+define("_OPTBAND","This action is required ONLY IF you want to display the top band, the nofollow attribute from your comments are just disappeared. (If you haven't changed it above)");
+define("_TOPBAND","Do you want the CSS image band at the top of the page?");
+define("_POSBAND","Which position do you prefer?");
+define("_LEFT","Left");
+define("_RIGHT","Right");
+define("_GREEN","Green");
+define("_RED","Red");
+define("_ORANGE","Orange");
+define("_BLUE","Blue");
+define("_COLBAND","Which band colour do you prefer?");
+define("_URLBAND","What url do you want when someone click the band?");
+define("_CHECKUP","Check if your <a href='http://www.michelem.org/wordpress-plugin-nofollow-free/'><strong>nofollow-free plugin</strong></a> is updated");
+define("_TEXTLINK","Comments links could be <a href='http://www.michelem.org/wordpress-plugin-nofollow-free/'>nofollow free</a>.");
+?>

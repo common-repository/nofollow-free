@@ -1,0 +1,33 @@
+<?php
+define("_SELLANG","選擇NOFF語言");
+define("_BANDTXT","此博客NOFOLLOW免費!");
+define("_OPTREMOVE","選擇是否刪除\"nofollow\"作者評論屬性/評論主題正文連接/註冊使用人連接");
+define("_OPTFROM","你想刪除nofollow從(缺省作家|已註冊作家|已註冊的評論)");
+define("_AUTHORLINK","作者連接");
+define("_COMTEXTLINK","評論正文連接");
+define("_REGAUTHORLINK","已註冊作者連接");
+define("_REGCOMTEXTLINK","已註冊評論正文連接");
+define("_SETNUMAUTH","設定作者必須在刪除以前寫多少評論nofollow（缺省10）");
+define("_SETNUMZERO","設定<strong>0</strong>總是去除nofollow.");
+define("_SETNUMREGAUTH","設定作家必須在刪除nofollow以前寫多少評論（缺省5）");
+define("_SETBLACKLIST","這裡你可以設定一些單獨的文字，如果有一些文字在評論的正文可以找到我放回nofollow，只是妨止垃圾郵件.");
+define("_SETNUMCOM","你想註解的數字特別地顯示在作者的名字後面嗎？（缺省不）");
+define("_YES","是");
+define("_NO","不是");
+define("_NO2","不，我會寫一個關於這個插件的貼子:)");
+define("_DONATELINK","你想捐贈這個連接到這個插件嗎？（缺省是）");
+define("_INSERTFUNC","為了顯示頂部的標語牌插入<strong>&lt;?php noff() ?&gt;</strong>到功能到你的模板後&lt;body&gt;屬性像這樣：");
+define("_OPTBAND","這個行為是必需的如果你只想顯示頂部的標語牌，nofollow屬性會從你的註釋消失（如果你還沒有改變上面的）");
+define("_TOPBAND","你想要CSS圖像在頂部嗎？");
+define("_POSBAND","哪個位置你更喜歡");
+define("_LEFT","左");
+define("_RIGHT","右");
+define("_GREEN","綠色");
+define("_RED","紅色");
+define("_ORANGE","橙色");
+define("_BLUE","藍色");
+define("_COLBAND","哪一個顏色的標語牌你更喜歡？");
+define("_URLBAND","什麼樣的URL你想要當別人點擊標語牌的時候？");
+define("_CHECKUP","檢查你的<a href='http://www.michelem.org/wordpress-plugin-nofollow-free/'><strong>nofollow-free plugin</strong></a>是否更新");
+define("_TEXTLINK","註釋連接應該<a href='http://www.michelem.org/wordpress-plugin-nofollow-free/'>nofollow free</a>.");
+?>

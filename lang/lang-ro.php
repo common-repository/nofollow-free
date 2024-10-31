@@ -1,0 +1,33 @@
+<?php
+define("_SELLANG","Selecteaza limba pentru NOFF");
+define("_BANDTXT","Blog fara NOFOLLOW!");
+define("_OPTREMOVE","Selecteaza scoaterea tagului \"nofollow\" din linkul de autor si/sau textul comentariului");
+define("_OPTFROM","Scoate tagul nofollow din: (sandard: Autor | Autori nregistrati | Comentarii autori nregistrati)");
+define("_AUTHORLINK","Linkul de autor");
+define("_COMTEXTLINK","Linkuri din comentarii");
+define("_REGAUTHORLINK","Linkul autorilor nregistrati");
+define("_REGCOMTEXTLINK","Linkuri din comentariile autorilor nregistrati");
+define("_SETNUMAUTH","Seteaza cte comentarii trebuie sa aibe un autor pna la scoaterea tagului nofollow. (standard: 10)");
+define("_SETNUMZERO","Seteaza <strong>0</strong> pentru a scoate ca standard tagul nofflow.");
+define("_SETNUMREGAUTH","Seteaza cte comentarii trebuie sa aibe un autor NREGISTRAT pna la scoaterea tagului nofollow. (standard: 5)");
+define("_SETBLACKLIST","Aici poti seta cteva cuvinte despartite prin <strong>virgula</strong>. Daca unul sau mai multe cuvinte sunt gasite in comentariu, tagul nofollw va fi reactivat pentru prevenirea spamului.");
+define("_SETNUMCOM","Vrei sa fie afisat numarul de comentarii de pna acum al autorului dupa numele lui n comentariu? (standard: NU)");
+define("_YES","Da");
+define("_NO","Nu");
+define("_NO2","Nu, o sa scriu un post despre acest plugin :)");
+define("_DONATELINK","Vrei sa oferi link spre plugin? (standard: DA)");
+define("_INSERTFUNC","Pentru a afisa banderola/bannerul pe pagina insereaza functia <strong>&lt;?php noff() ?&gt;</strong> n templateul blogului tau (n header.php) imediat dupa &lt;body&gt; n felul urmator:");
+define("_OPTBAND","Aceasta actiune e necesara DOAR DACA vrei sa afisezi banderola/bannerul, tagul nofollow este oricum scos. (Daca nu ai modificat altfel mai sus)");
+define("_TOPBAND","Vrei imaginea banerolei/bannerului cu CSS?");
+define("_POSBAND","Ce pozitie preferi?");
+define("_LEFT","Stnga");
+define("_RIGHT","Stnga");
+define("_GREEN","Verde");
+define("_RED","Rosu");
+define("_ORANGE","Portocaliu");
+define("_BLUE","Albastru");
+define("_COLBAND","Ce culoare preferi?");
+define("_URLBAND","Ce url preferi cnd cineva da click pe banner?");
+define("_CHECKUP","Vezi daca <a href='http://www.michelem.org/wordpress-plugin-nofollow-free/'><strong>pluginul nofollow-free</strong></a> are updateuri.");
+define("_TEXTLINK","Linkurile comentariilor pot fi <a href='http://www.michelem.org/wordpress-plugin-nofollow-free/'>fara nofollow</a>.");
+?>

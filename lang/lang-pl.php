@@ -1,0 +1,33 @@
+<?php
+define("_SELLANG","Wybierz j&#281;zyk NOFF");
+define("_BANDTXT","Ten blog jest wolny od NOFOLLOW!");
+define("_OPTREMOVE","Wybierz jedn&#261; z poni&#380;szych opcji, by usun&#261;&#263; nofollow z linka autora, linka w komentarzu lub linka zarejestrowanego u&#380;ytkownika.");
+define("_OPTFROM","Usu&#324; nofollow z tych link&#243;w:");
+define("_AUTHORLINK","Link autora");
+define("_COMTEXTLINK","Link w tek&#347;cie komentarza");
+define("_REGAUTHORLINK","Link zarejestrowanego autora");
+define("_REGCOMTEXTLINK","Link w komentarzu zarejestrowanego autora");
+define("_SETNUMAUTH","Ustal, ile komentarzy musi najpierw napisa&#263; autor, by mo&#380;na by&#322;o usun&#261;&#263; nofollow z jego link&#243;w (domy&#347;lnie 10).");
+define("_SETNUMZERO","Wybierz <strong>0</strong>, by zawsze usuwa&#263; z link&#243;w nofollow.");
+define("_SETNUMREGAUTH","Ustal, ile komentarzy musi najpierw napisa&#263; ZAREJESTROWANY autor, by mo&#380;na by&#322;o usun&#261;&#263; nofollow z jego link&#243;w (domy&#347;lnie 5).");
+define("_SETBLACKLIST","Wpisz s&#322;owa, oddzielaj&#261;c je <strong>przecinkiem</strong>. Je&#347;li jedno z nich znajdzie si&#281; w komentarzu, ponownie w&#322;&#261;czy si&#281; nofollow - dla ochrony przed spamerami.");
+define("_SETNUMCOM","Czy chcesz, by przy nickach komentuj&#261;cych wy&#347;wietla&#322;a si&#281; liczba ich komentarzy? (domy&#347;lnie NIE)");
+define("_YES","Tak");
+define("_NO","Nie");
+define("_NO2","Nie, stworz&#281; wpis o tej wtyczce :)");
+define("_DONATELINK","Chcesz wesprze&#263; wtyczk&#281; przez dodanie informacji o niej pod sekcj&#261; komentarzy? (domy&#347;lnie TAK)");
+define("_INSERTFUNC","Aby wy&#347;wietli&#263; u g&#243;ry strony banner, wstaw <strong>&lt;?php noff() ?&gt;</strong> zaraz po znaczniku &lt;body&gt; - w taki spos&#243;b:");
+define("_OPTBAND","R&#243;b to tylko wtedy, gdy chcesz wy&#347;wietli&#263; u g&#243;ry strony banner - atrybut nofollow zniknie z link&#243;w w komentarzach (je&#347;li nie zosta&#322;o to zmienione w opcjach powy&#380;ej).");
+define("_TOPBAND","Chcesz wy&#347;wietli&#263; banner u g&#243;ry strony?");
+define("_POSBAND","Jak&#261; wybierasz pozycj&#281;?");
+define("_LEFT","Po lewej");
+define("_RIGHT","Po prawej");
+define("_GREEN","Zielony");
+define("_RED","Czerwony");
+define("_ORANGE","Pomara&#324;czowy");
+define("_BLUE","Niebieski");
+define("_COLBAND","Jaki wybierasz kolor?");
+define("_URLBAND","Jaki chcesz odno&#347;nik do tego obrazka?");
+define("_CHECKUP","Sprawd&#378;, czy masz najnowsz&#261; wersj&#281; <a href='http://www.michelem.org/wordpress-plugin-nofollow-free/'><strong>nofollow-free plugin</strong></a>.");
+define("_TEXTLINK","Linki w komentarzach mog&#261; by&#263; <a href='http://www.michelem.org/wordpress-plugin-nofollow-free/'>wolne od atrybutu nofollow</a>.");
+?>

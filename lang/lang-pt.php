@@ -1,0 +1,33 @@
+<?php
+define("_SELLANG","Selecione o idioma do NOFF");
+define("_BANDTXT","Este blog est&aacute; livre de NOFOLLOW!");
+define("_OPTREMOVE","Selecione os campos para remover o atributo \"nofollow\":");
+define("_OPTFROM","Deseja remover nofollow de (autor padr&atilde;o | autor registrado | coment&aacute;rio registrado)");
+define("_AUTHORLINK","Link do autor");
+define("_COMTEXTLINK","Links no corpo do coment&aacute;rio");
+define("_REGAUTHORLINK","Link de autor registrado");
+define("_REGCOMTEXTLINK","Links em coment&aacute;rios registrados");
+define("_SETNUMAUTH","Selecione quantos coment&aacute;rios o autor precisa ter antes de remover o nofollow. (padr&atilde;o: 10)");
+define("_SETNUMZERO","Selecione <strong>0</strong> para sempre remover o nofollow.");
+define("_SETNUMREGAUTH","Selecione quantos coment&aacute;rios o usu&aacute;rio REGISTRADO deve ter antes de remover o nofollow. (padr&atilde;o: 5)");
+define("_SETBLACKLIST","Defina palavras (separadas por <strong>v&iacute;rgulas</strong>) que reativar&atilde;o o noffolow se encontradas no texto, para evitar spammers.");
+define("_SETNUMCOM","Deseja exibir o n&uacute;mero de coment&aacute;rios de cada autor ap&oacute;s seu nome? (padr&atilde;o: N&atilde;O) ");
+define("_YES","Sim");
+define("_NO","N&atilde;o");
+define("_NO2","N&atilde;o, vou escrever um post sobre este plugin :)");
+define("_DONATELINK","Deseja doar um link para este plugin? (padr&atilde;o: SIM)");
+define("_INSERTFUNC","Para exibir a faixa superior, lembre de inserir a fun&ccedil;&atilde;o <strong>&lt;?php noff() ?&gt;</strong> no seu template logo ap&oacute;s a tag &lt;body&gt;, assim:");
+define("_OPTBAND","Essa a&ccedil;&atilde;o &eacute; requeria APENAS SE voc&ecirc; deseja exibir a faixa superior, o atributo noffolow j&aacute; deve ter sido removido. (se aceitou as op&ccedil;&otilde;es padr&atilde;o acima)");
+define("_TOPBAND","Deseja a imagem CSS da faixa exibida no topo da p&aacute;gina?");
+define("_POSBAND","Em que posi&ccedil;&atilde;o deseja?");
+define("_LEFT","Esquerda");
+define("_RIGHT","Direita");
+define("_GREEN","Verde");
+define("_RED","Vermelho");
+define("_ORANGE","Laranja");
+define("_BLUE","Azul");
+define("_COLBAND","Que cor voc&ecirc; prefere para a faixa?");
+define("_URLBAND","Que URL deve ser acessada quando algu&eacute;m clicar na faixa?");
+define("_CHECKUP","Cheque se seu <a href='http://www.michelem.org/wordpress-plugin-nofollow-free/'><strong>plugin nofollow-free</strong></a> est&aacute; atualizado");
+define("_TEXTLINK","Links de coment&aacute;rios deveriam estar <a href='http://www.michelem.org/wordpress-plugin-nofollow-free/'>livres de nofollow</a>.");
+?>

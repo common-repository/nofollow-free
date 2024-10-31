@@ -1,0 +1,33 @@
+<?php
+define("_SELLANG","Izv&#275;lies NOFF valodu");
+define("_BANDTXT","&#352;is blogs ir br&#299;vs no NOFOLLOW!");
+define("_OPTREMOVE","Izv&#275;lies, ja v&#275;lies no&#326;emt \"nofollow\" atrib&#363;tu no koment&#257;ra autora un/vai koment&#257;ra satura sait&#275;m un/vai re&#291;istr&#275;ta lietot&#257;ja sait&#275;m");
+define("_OPTFROM","Vai v&#275;lies no&#326;emt nofollow no: (Noklus&#275;t&#257; autora | Re&#291;istr&#275;ta autora | Re&#291;istr&#275;ta koment&#257;ra)");
+define("_AUTHORLINK","Autora saite");
+define("_COMTEXTLINK","Koment&#257;ra satura saite");
+define("_REGAUTHORLINK","Re&#291;istr&#275;ta autora saite");
+define("_REGCOMTEXTLINK","Re&#291;istr&#275;ta koment&#257;ra satura saite");
+define("_SETNUMAUTH","Iz&#275;lies, cik koment&#257;rus autoram ir j&#257;uzraksta, pirms tiek no&#326;emts nofollow. (noklus&#275;ti 10)");
+define("_SETNUMZERO","Nor&#257;di <strong>0</strong>, lai nofollow no&#326;emtu uzreiz.");
+define("_SETNUMREGAUTH","Izv&#275;lies, cik koment&#257;ru RE&#290;ISTR&#274;TAM autoram ir j&#257;uzraksta, pirms tiek no&#326;emts nofollow. (noklus&#275;ti 5)");
+define("_SETBLACKLIST","&#352;eit vari nor&#257;d&#299;t da&#382;us <strong>ar komatu</strong> atdal&#299;tus v&#257;rdus. Ja viens vai vair&#257;ki no v&#257;rdiem tiks atrasti koment&#257;r&#257;, sait&#275;m tiks atkal pievienots nofollow, lai izsarg&#257;tos no m&#275;stu&#316;u s&#363;t&#299;t&#257;jiem.");
+define("_SETNUMCOM","Vai v&#275;lies nor&#257;d&#299;t autora pievienotu koment&#257;ru skaitu blakus t&#257; v&#257;rdam? (noklus&#275;ti N&#274;)");
+define("_YES","J&#257;");
+define("_NO","N&#275;");
+define("_NO2","N&#275;, es t&#257; viet&#257; uzrakst&#299;&#353;u raksti&#326;u par &#353;o spraudni :)");
+define("_DONATELINK","Vai v&#275;lies d&#257;vin&#257;t saiti uz &#353;o spraudni? (noklus&#275;ti J&#256;)");
+define("_INSERTFUNC","Lai izmantotu bant&#299;ti lapas aug&#353;pus&#275;, atceries pievienot savai t&#275;mai funkciju <strong>&lt;?php noff() ?&gt;</strong> uzreiz p&#275;c &lt;body&gt; atrib&#363;ta, l&#363;k &#353;&#257;di:");
+define("_OPTBAND","&#352;&#299; darb&#299;ba ir nepiecie&#353;ama tikai tad, ja tu V&#274;LIES izmantot bant&#299;ti lapas aug&#353;pus&#275;, jo nofollow atrib&#363;ts tiks no&#326;emts jebkur&#257; gad&#299;jum&#257;. (Ja tu to iepriek&#353; neizmain&#299;ji)");
+define("_TOPBAND","Vai v&#275;lies autom&#257;tiski novietot bant&#299;ti lapas aug&#353;pus&#275; ar CSS pal&#299;dz&#299;bu?");
+define("_POSBAND","K&#257;du novietojumu v&#275;lies?");
+define("_LEFT","Pa kreisi");
+define("_RIGHT","Pa labi");
+define("_GREEN","Za&#316;a");
+define("_RED","Sarkana");
+define("_ORANGE","Oran&#382;a");
+define("_BLUE","Zila");
+define("_COLBAND","K&#257;das kr&#257;sas bant&#299;ti v&#275;lies?");
+define("_URLBAND","Uz k&#257;du URL doties, kad noklik&#353;&#311;ina uz bant&#299;tes?");
+define("_CHECKUP","P&#257;rbaudi vai tavs <a href='http://www.michelem.org/wordpress-plugin-nofollow-free/'><strong>nofollow-free spraudnis</strong></a> ir atjaunin&#257;ts");
+define("_TEXTLINK","Koment&#257;ru saites var b&#363;t <a href='http://www.michelem.org/wordpress-plugin-nofollow-free/'>nofollow br&#299;vs</a>.");
+?>

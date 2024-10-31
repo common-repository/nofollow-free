@@ -1,0 +1,33 @@
+<?php
+define("_SELLANG","Valitse NOFF kieli");
+define("_BANDTXT","Tämä blogi on vapaa NOFOLLOW:sta !");
+define("_OPTREMOVE","Valitse jos haluat poistaa \"nofollow\" atribuutin kirjoittajalta ja tai kommentissa olevasta linkistä ja/tai rekisteröityjen käyttäjien linkistä");
+define("_OPTFROM","Haluatko poistaa nofollow:n : (Kyseiseltä kirjoittajalta | Kerkisteröityneeltä kirjoittajalta | Rekisteröityneestä kommentista)");
+define("_AUTHORLINK","Kirjoittajan linkki");
+define("_COMTEXTLINK","Kommenttilinkki");
+define("_REGAUTHORLINK","Rekisteröityneen kirjoittajan linkki");
+define("_REGCOMTEXTLINK","Rekisteröityt kommenttilinkki");
+define("_SETNUMAUTH","Valitse, kuinka monta kommenttia kirjoittajan täytyy kirjoittaa ennenkuin poistan nofollow:n. (oletus 10)");
+define("_SETNUMZERO","Aseta <strong>0</strong> poistaaksesi nofollow:n aina.");
+define("_SETNUMREGAUTH"," Valitse, kuinka monta kommenttia REKISTERÖITYNEEN kirjoittajan täytyy kirjoittaa ennenkuin poistan nofollow:n. (oletus 5)");
+define("_SETBLACKLIST","Tässä voit syöttää joitakin <strong>pilkulla</strong> erotettuja sanoja. Jos yksikin näistä sanoista esiintyy kommentissa, asetan nofollow:n takaisin päälle estääkseni spämmäyksen.");
+define("_SETNUMCOM","Haluatko kyseisen kirjoittajan kommenttien määrän näkyvän hänen nimensä perässä? (default NO)");
+define("_YES","Kyllä");
+define("_NO","Ei");
+define("_NO2","Ei, postaan tästä plugin:sta :)");
+define("_DONATELINK","Haluatko antaa linkin tälle plugin:lle? (Asetus KYLLÄ)");
+define("_INSERTFUNC","Näyttääksesi ylänauhan muista lisätä <strong>&lt;?php noff() ?&gt;</strong> toiminto malliisi heti &lt;body&gt; atribuutin jälkeen, näin:");
+define("_OPTBAND","Tämä toiminto vaaditaan VAIN JOS haluat näyttää ylänauhan, nofollow-atribuutit katoavat kommenteistasi. (Ellet ole muuttanut sitä yläpuolella)");
+define("_TOPBAND","Haluatko CSS-kuvan näkyvän sivun ylälaidassa?");
+define("_POSBAND","Minkä paikan haluat valita?");
+define("_LEFT","Vasen");
+define("_RIGHT","Oikea");
+define("_GREEN","Vihreä");
+define("_RED","Punainen");
+define("_ORANGE","Oranssi");
+define("_BLUE","Sininen");
+define("_COLBAND","Mikä nauhan värin valitset?");
+define("_URLBAND","Minkä url:n haluat kun joku klikkaa nauhaa?");
+define("_CHECKUP","Tarkista, onko <a href='http://www.michelem.org/wordpress-plugin-nofollow-free/'><strong>nofollow-free plugin</strong></a> päivitetty");
+define("_TEXTLINK","Kommenttilinkit voivat olla <a href='http://www.michelem.org/wordpress-plugin-nofollow-free/'>nofollow:sta vapaita</a>.");
+?>

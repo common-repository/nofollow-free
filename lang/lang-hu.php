@@ -1,0 +1,33 @@
+<?php
+define("_SELLANG","Milyen nyelven beszéljen a NoFollow Free plugin?");
+define("_BANDTXT","NOFOLLOW-mentes övezet!");
+define("_OPTREMOVE","A NoFollow Free plugin segítségével eltávolíthatod a \"nofollow\" attribútumot a megjegyzések szerzőinek nevein, vagy a megjegyzések szövegében található linkekről.");
+define("_OPTFROM","Hol mellőzzük a nofollow használatát? (alapértelmezetten a szerzők nevén, trackback/pingback bejegyzéseknél, és regisztrált felhasználók megjegyzéseinél)");
+define("_AUTHORLINK","Regisztráció nélkül írt megjegyzések szerzőinek nevén");
+define("_COMTEXTLINK","Regisztráció nélkül írt megjegyzések szövegében");
+define("_REGAUTHORLINK","Regisztrált felhasználók nevén és trackback/pingback bejegyzések linkjein");
+define("_REGCOMTEXTLINK","Regisztrált felhasználók megjegyzéseiben");
+define("_SETNUMAUTH","Hány megjegyzést kell írnia egy nem regisztrált felhasználónak, mielőtt levennénk linkjeiről a nofollow-t? (alapértelmezetten 10-et)");
+define("_SETNUMZERO","Ha nullát írsz be, mindig levesszük a nofollow-t.");
+define("_SETNUMREGAUTH","Hány megjegyzést kell írnia egy regisztrált felhasználónak, mielőtt levennénk linkjeiről a nofollow-t? (alapértelmezetten 5-öt)");
+define("_SETBLACKLIST","Ha ezen szavak bármelyike szerepel a megjegyzés szövegében, akkor visszatesszük a linkekre a nofollow-t, hogy kitoljunk a spammerekkel. (A szavakat vesszővel válaszd el.)");
+define("_SETNUMCOM","Kiírjuk a szerző neve után, hogy összesen hány megjegyzést írt? (alapéretelmezetten NEM)");
+define("_YES","Igen");
+define("_NO","Nem");
+define("_NO2","Nem, inkább írok egy blog bejegyzést a plugin-t népszerűsítve :)");
+define("_DONATELINK","Engedélyezed a plugin weboldalára mutató linket a megjegyzés oldalak alján? (alapértelmezetten IGEN)");
+define("_INSERTFUNC","Ha szeretnéd, hogy a blogod felső sarkában megjelenjen a \"NOFOLLOW FREE\" szalag, meg kell hívni a <strong>&lt;?php noff() ?&gt;</strong> függvényt a template-ből, mondjuk közvetlenül a &lt;body&gt; HTML tag után, például így:");
+define("_OPTBAND","Erre csak akkor van szükség, ha a szalagot is meg akarod jeleníteni, a plugin enélkül is működik.");
+define("_TOPBAND","Megjelenhet a felső sarokban a szalag?");
+define("_POSBAND","Melyik oldalra kerüljön?");
+define("_LEFT","Balra");
+define("_RIGHT","Jobbra");
+define("_GREEN","Zöld");
+define("_RED","Piros");
+define("_ORANGE","Narancs");
+define("_BLUE","Kék");
+define("_COLBAND","Milyen színű legyen a szalag?");
+define("_URLBAND","Milyen URL-re mutasson a szalagon levő link?");
+define("_CHECKUP","Van-e frissebb <a href='http://www.michelem.org/wordpress-plugin-nofollow-free/'><strong>nofollow-free plugin</strong></a>?");
+define("_TEXTLINK","Megjegyzések <a href='http://www.michelem.org/wordpress-plugin-nofollow-free/'>NoFollow-mentesen</a> is.");
+?>

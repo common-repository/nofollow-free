@@ -1,0 +1,34 @@
+<?php
+define("_SELLANG","Zvolit NOFF jazyk");
+define("_BANDTXT","Tento blog je NOFOLLOW Free!");
+define("_OPTREMOVE","Zvolte pokud chcete odstranit \"nofollow\" atribut z autora komentá&#345;e  a/nebo odkaz&#367; v t&#283;le komentá&#345;e a/nebo ze jména registrovaného uživatele");
+define("_OPTFROM","Chcete odstranit nofollow z: (výchozí Autor| Registrovaný Autor | Registrovaný komentá&#345;)");
+define("_AUTHORLINK","Autor odkaz");
+define("_COMTEXTLINK","Odkaz v komentá&#345;i");
+define("_REGAUTHORLINK","Odkaz na registrovaného uživatele");
+define("_REGCOMTEXTLINK","Odkaz v registrovaném komentá&#345;i");
+define("_SETNUMAUTH","Nastavit kolik komentá&#345;&#367; musí autor napsat, než odstraníte nofollow (výchozí 10)");
+define("_SETNUMZERO","Nastavit <strong>0</strong> vždy odstranit nofollow.");
+define("_SETNUMREGAUTH","Nastavit kolik komentá&#345;&#367; musí registrovaný autor napsat, než odstraníte nofollow (výchozí 5.");
+define("_SETBLACKLIST","Jako prevenci spamu, máte možnost nastavit slova (odd&#283;lte je <strong>&#269;árkou</strong>). Pokud budou identifikována v textu komentá&#345;e, bude dosazen zp&#283;t atribut nofollow, bez ohledu dalšího nastavení tohoto pluginu.");
+define("_SETBLACKLIST_EMAIL","Podobn&#283; jako u slov (výše) i zde je možné nastavit seznam e-mailových adres, kterým chcete zakázat možnost vkládat p&#345;ísp&#283;vky (we hate spammers)");
+define("_SETNUMCOM","Nastavte maximální po&#269;et p&#345;ísp&#283;vk&#367;, zobrazených pod uživatelským jménem. (default NO)");
+define("_YES","Ano");
+define("_NO","Ne");
+define("_NO2","Ne, napíšu komentá&#345; k tomuto pluginu :)");
+define("_DONATELINK","Chcete poslat finan&#269;ní p&#345;ísp&#283;vek tv&#367;rc&#367;m tohoto pluginu? (default YES)");
+define("_INSERTFUNC","Pokud chcete zobrazit ikonu s nofollow motivem nezapome&#328;te vložit tuto funkci <strong>&lt;?php noff() ?&gt;</strong> do vaší šablony p&#345;ímo za tento atribut &lt;body&gt; v tomto formátu:");
+define("_OPTBAND","Tato akce je vyžadována JEN POKUD chcete zobrazit ikonu s nofollow motivem, nofollow atribut/y z vašich komentá&#345;&#367; zmizí. (Jen pokud jste toto nezm&#283;nili již výše)");
+define("_TOPBAND","P&#345;ejete si CSS obrázek s nofollow motivem zobrazit naho&#345;e na stránce?");
+define("_POSBAND","Kterou pozici preferujete?");
+define("_LEFT","Levá");
+define("_RIGHT","Pravá");
+define("_GREEN","Zelená");
+define("_RED","&#268;ervená");
+define("_ORANGE","Oranžová");
+define("_BLUE","Modrá");
+define("_COLBAND","Kterou barvu nápisu preferujte?");
+define("_URLBAND","Jaké URL použít, pokud n&#283;kdo klikne na ikonu s nofollow motivem?");
+define("_CHECKUP","Zkontroluj, jestli je váš <a href='http://www.michelem.org/wordpress-plugin-nofollow-free/'><strong>nofollow-free plugin</strong></a> aktuální");
+define("_TEXTLINK","Odkazy komentá&#345;&#367; mohou být <a href='http://www.michelem.org/wordpress-plugin-nofollow-free/'>nofollow free</a>.");
+?>

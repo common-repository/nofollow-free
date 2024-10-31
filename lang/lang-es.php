@@ -1,0 +1,33 @@
+<?php
+define("_SELLANG","Select NOFF language");
+define("_BANDTXT","Este blog est&aacute; libre de NOFOLLOW!");
+define("_OPTREMOVE","Permite remover el atributo \"nofollow\" del campo \"autor\" del comentario y/o del enlace en el cuerpo del comentario y/o del enlace del usuario registrado");
+define("_OPTFROM","Remueva el nofollow de: (default Autor | Autor Registrado | Comentario Registrado)");
+define("_AUTHORLINK","Enlace del Autor");
+define("_COMTEXTLINK","Enlace en el texto del comentario");
+define("_REGAUTHORLINK","Enlace del Autor Registrado");
+define("_REGCOMTEXTLINK","Enlace de texto en Comentario Registrado");
+define("_SETNUMAUTH","Seleccione cuantos comentarios debe escribir el autor antes de remover el nofollow. (default 10)");
+define("_SETNUMZERO","Use <strong>0</strong> para siempre remover el nofollow.");
+define("_SETNUMREGAUTH","Seleccione cu&aacute;ntos comentarios debe escribir el autor REGISTRADO antes de remover el nofollow. (default 5)");
+define("_SETBLACKLIST","Aqu&iacute; puede usar palabras separadas por <strong>comas</strong>. Si una o m&aacute;s de estas palabras se encuentran en el texto del comentario se agrega el nofollow de nuevo, s&oacute;lo para prevenirnos de spammers.");
+define("_SETNUMCOM","&iquest;Deseas mostrar el n&uacute;mero de comentarios del autor luego de su nombre? (default NO)");
+define("_YES","S&Iacute;");
+define("_NO","No");
+define("_NO2","No, mejor escribo una entrada sobre el plugin :)");
+define("_DONATELINK","&iquest;Deseas donar un enlace a este plugin? (default S&Iacute;)");
+define("_INSERTFUNC","Para mostrar la banda superior recuerde insertar la funci&oacute;n <strong>&lt;?php noff() ?&gt;</strong> dentro de su plantilla justo despu&eacute;s del atributo &lt;body&gt; de la siguiente forma:");
+define("_OPTBAND","Esta acci&oacute; es requerida S&Oacute;LO si deseas mostrar la banda superior, el atributo nofollow ya ha desaparecido de tus comentarios. (Si no lo has cambiado arriba)");
+define("_TOPBAND","&iquest;Deseas la banda en CSS al principio de la p&aacute;gina?");
+define("_POSBAND","&iquest;En qu&eacute; posici&oacute;n la prefieres?");
+define("_LEFT","Izquierda");
+define("_RIGHT","Derecha");
+define("_GREEN","Verde");
+define("_RED","Rojo");
+define("_ORANGE","Naranja");
+define("_BLUE","Azul");
+define("_COLBAND","&iquest;Qu&eacute; color de banda prefieres?");
+define("_URLBAND","&iquest;Cu&aacute;l ser&aacute; el enlace cuando hagan clic sobre la banda?");
+define("_CHECKUP","Verifica que tu <a href='http://www.michelem.org/wordpress-plugin-nofollow-free/'><strong>plugin nofollow-free</strong></a> est&aacute; actualizado.");
+define("_TEXTLINK","Los enlaces en los comentarios pueden encontrarse <a href='http://www.michelem.org/wordpress-plugin-nofollow-free/'>libres de nofollow</a>.");
+?>
